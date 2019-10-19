@@ -14,6 +14,9 @@ import javax.validation.Valid;
 @RestController
 public class PostController {
 
+    /**
+    * object created.
+    */
     @Autowired
     private PostRepository postRepository;
 
